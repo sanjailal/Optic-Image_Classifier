@@ -59,8 +59,11 @@ def upload_file():
         response_body=jsonify(response_body)
         response_body.headers.add('Access-Control-Allow-Origin', '*')
         return response_body
+@app.route('/')
+def index():
+    return "Flask running"
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
 

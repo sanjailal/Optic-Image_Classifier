@@ -1,0 +1,29 @@
+{
+  
+  "name": "Optic",
+  "short_name": "Optic",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+
+  "icons": [
+    {
+      "src": "photo-camera-icon-0 512x512.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "512x512"
+    },
+    {
+      "src": "photo-camera-icon 192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "photo-camera-icon-0 64x64.png",
+      "type": "image/png",
+      "sizes": "image/x-icon"
+    }
+  ]
+}
